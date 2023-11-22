@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4001A6A2B0E8DF300DE11C0 /* LookLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4001A692B0E8DF300DE11C0 /* LookLabApp.swift */; };
+		A4001A6C2B0E8DF300DE11C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4001A6B2B0E8DF300DE11C0 /* ContentView.swift */; };
+		A4001A6E2B0E8DF400DE11C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4001A6D2B0E8DF400DE11C0 /* Assets.xcassets */; };
+		A4001A712B0E8DF400DE11C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4001A702B0E8DF400DE11C0 /* Preview Assets.xcassets */; };
+		A4001A7B2B0E8DF400DE11C0 /* LookLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4001A7A2B0E8DF400DE11C0 /* LookLabTests.swift */; };
+		A4001A852B0E8DF400DE11C0 /* LookLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4001A842B0E8DF400DE11C0 /* LookLabUITests.swift */; };
+		A4001A872B0E8DF400DE11C0 /* LookLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4001A862B0E8DF400DE11C0 /* LookLabUITestsLaunchTests.swift */; };
+		A4001A952B0E8E1C00DE11C0 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4001A942B0E8E1C00DE11C0 /* HomeScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4001A772B0E8DF400DE11C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4001A5E2B0E8DF300DE11C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4001A652B0E8DF300DE11C0;
+			remoteInfo = LookLab;
+		};
+		A4001A812B0E8DF400DE11C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4001A5E2B0E8DF300DE11C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4001A652B0E8DF300DE11C0;
+			remoteInfo = LookLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4001A662B0E8DF300DE11C0 /* LookLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LookLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4001A692B0E8DF300DE11C0 /* LookLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookLabApp.swift; sourceTree = "<group>"; };
+		A4001A6B2B0E8DF300DE11C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4001A6D2B0E8DF400DE11C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4001A702B0E8DF400DE11C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4001A762B0E8DF400DE11C0 /* LookLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4001A7A2B0E8DF400DE11C0 /* LookLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookLabTests.swift; sourceTree = "<group>"; };
+		A4001A802B0E8DF400DE11C0 /* LookLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4001A842B0E8DF400DE11C0 /* LookLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookLabUITests.swift; sourceTree = "<group>"; };
+		A4001A862B0E8DF400DE11C0 /* LookLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4001A942B0E8E1C00DE11C0 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4001A632B0E8DF300DE11C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4001A732B0E8DF400DE11C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4001A7D2B0E8DF400DE11C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4001A5D2B0E8DF300DE11C0 = {
+			isa = PBXGroup;
+			children = (
+				A4001A682B0E8DF300DE11C0 /* LookLab */,
+				A4001A792B0E8DF400DE11C0 /* LookLabTests */,
+				A4001A832B0E8DF400DE11C0 /* LookLabUITests */,
+				A4001A672B0E8DF300DE11C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4001A672B0E8DF300DE11C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4001A662B0E8DF300DE11C0 /* LookLab.app */,
+				A4001A762B0E8DF400DE11C0 /* LookLabTests.xctest */,
+				A4001A802B0E8DF400DE11C0 /* LookLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4001A682B0E8DF300DE11C0 /* LookLab */ = {
+			isa = PBXGroup;
+			children = (
+				A4001A692B0E8DF300DE11C0 /* LookLabApp.swift */,
+				A4001A6B2B0E8DF300DE11C0 /* ContentView.swift */,
+				A4001A932B0E8E0F00DE11C0 /* Screens */,
+				A4001A6D2B0E8DF400DE11C0 /* Assets.xcassets */,
+				A4001A6F2B0E8DF400DE11C0 /* Preview Content */,
+			);
+			path = LookLab;
+			sourceTree = "<group>";
+		};
+		A4001A6F2B0E8DF400DE11C0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4001A702B0E8DF400DE11C0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4001A792B0E8DF400DE11C0 /* LookLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4001A7A2B0E8DF400DE11C0 /* LookLabTests.swift */,
+			);
+			path = LookLabTests;
+			sourceTree = "<group>";
+		};
+		A4001A832B0E8DF400DE11C0 /* LookLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4001A842B0E8DF400DE11C0 /* LookLabUITests.swift */,
+				A4001A862B0E8DF400DE11C0 /* LookLabUITestsLaunchTests.swift */,
+			);
+			path = LookLabUITests;
+			sourceTree = "<group>";
+		};
+		A4001A932B0E8E0F00DE11C0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A4001A942B0E8E1C00DE11C0 /* HomeScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4001A652B0E8DF300DE11C0 /* LookLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4001A8A2B0E8DF400DE11C0 /* Build configuration list for PBXNativeTarget "LookLab" */;
+			buildPhases = (
+				A4001A622B0E8DF300DE11C0 /* Sources */,
+				A4001A632B0E8DF300DE11C0 /* Frameworks */,
+				A4001A642B0E8DF300DE11C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LookLab;
+			productName = LookLab;
+			productReference = A4001A662B0E8DF300DE11C0 /* LookLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4001A752B0E8DF400DE11C0 /* LookLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4001A8D2B0E8DF400DE11C0 /* Build configuration list for PBXNativeTarget "LookLabTests" */;
+			buildPhases = (
+				A4001A722B0E8DF400DE11C0 /* Sources */,
+				A4001A732B0E8DF400DE11C0 /* Frameworks */,
+				A4001A742B0E8DF400DE11C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4001A782B0E8DF400DE11C0 /* PBXTargetDependency */,
+			);
+			name = LookLabTests;
+			productName = LookLabTests;
+			productReference = A4001A762B0E8DF400DE11C0 /* LookLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4001A7F2B0E8DF400DE11C0 /* LookLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4001A902B0E8DF400DE11C0 /* Build configuration list for PBXNativeTarget "LookLabUITests" */;
+			buildPhases = (
+				A4001A7C2B0E8DF400DE11C0 /* Sources */,
+				A4001A7D2B0E8DF400DE11C0 /* Frameworks */,
+				A4001A7E2B0E8DF400DE11C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4001A822B0E8DF400DE11C0 /* PBXTargetDependency */,
+			);
+			name = LookLabUITests;
+			productName = LookLabUITests;
+			productReference = A4001A802B0E8DF400DE11C0 /* LookLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4001A5E2B0E8DF300DE11C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A4001A652B0E8DF300DE11C0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A4001A752B0E8DF400DE11C0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A4001A652B0E8DF300DE11C0;
+					};
+					A4001A7F2B0E8DF400DE11C0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A4001A652B0E8DF300DE11C0;
+					};
+				};
+			};
+			buildConfigurationList = A4001A612B0E8DF300DE11C0 /* Build configuration list for PBXProject "LookLab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4001A5D2B0E8DF300DE11C0;
+			productRefGroup = A4001A672B0E8DF300DE11C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4001A652B0E8DF300DE11C0 /* LookLab */,
+				A4001A752B0E8DF400DE11C0 /* LookLabTests */,
+				A4001A7F2B0E8DF400DE11C0 /* LookLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4001A642B0E8DF300DE11C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4001A712B0E8DF400DE11C0 /* Preview Assets.xcassets in Resources */,
+				A4001A6E2B0E8DF400DE11C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4001A742B0E8DF400DE11C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4001A7E2B0E8DF400DE11C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4001A622B0E8DF300DE11C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4001A6C2B0E8DF300DE11C0 /* ContentView.swift in Sources */,
+				A4001A6A2B0E8DF300DE11C0 /* LookLabApp.swift in Sources */,
+				A4001A952B0E8E1C00DE11C0 /* HomeScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4001A722B0E8DF400DE11C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4001A7B2B0E8DF400DE11C0 /* LookLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4001A7C2B0E8DF400DE11C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4001A852B0E8DF400DE11C0 /* LookLabUITests.swift in Sources */,
+				A4001A872B0E8DF400DE11C0 /* LookLabUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4001A782B0E8DF400DE11C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4001A652B0E8DF300DE11C0 /* LookLab */;
+			targetProxy = A4001A772B0E8DF400DE11C0 /* PBXContainerItemProxy */;
+		};
+		A4001A822B0E8DF400DE11C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4001A652B0E8DF300DE11C0 /* LookLab */;
+			targetProxy = A4001A812B0E8DF400DE11C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4001A882B0E8DF400DE11C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4001A892B0E8DF400DE11C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4001A8B2B0E8DF400DE11C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LookLab/Preview Content\"";
+				DEVELOPMENT_TEAM = 2S9HYNZ7J7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSUF.LookLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4001A8C2B0E8DF400DE11C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LookLab/Preview Content\"";
+				DEVELOPMENT_TEAM = 2S9HYNZ7J7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSUF.LookLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4001A8E2B0E8DF400DE11C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2S9HYNZ7J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSUF.LookLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LookLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LookLab";
+			};
+			name = Debug;
+		};
+		A4001A8F2B0E8DF400DE11C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2S9HYNZ7J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSUF.LookLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LookLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LookLab";
+			};
+			name = Release;
+		};
+		A4001A912B0E8DF400DE11C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2S9HYNZ7J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSUF.LookLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LookLab;
+			};
+			name = Debug;
+		};
+		A4001A922B0E8DF400DE11C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2S9HYNZ7J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSUF.LookLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LookLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4001A612B0E8DF300DE11C0 /* Build configuration list for PBXProject "LookLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4001A882B0E8DF400DE11C0 /* Debug */,
+				A4001A892B0E8DF400DE11C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4001A8A2B0E8DF400DE11C0 /* Build configuration list for PBXNativeTarget "LookLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4001A8B2B0E8DF400DE11C0 /* Debug */,
+				A4001A8C2B0E8DF400DE11C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4001A8D2B0E8DF400DE11C0 /* Build configuration list for PBXNativeTarget "LookLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4001A8E2B0E8DF400DE11C0 /* Debug */,
+				A4001A8F2B0E8DF400DE11C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4001A902B0E8DF400DE11C0 /* Build configuration list for PBXNativeTarget "LookLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4001A912B0E8DF400DE11C0 /* Debug */,
+				A4001A922B0E8DF400DE11C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4001A5E2B0E8DF300DE11C0 /* Project object */;
+}
