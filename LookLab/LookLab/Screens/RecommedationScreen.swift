@@ -9,7 +9,15 @@ import SwiftUI
 
 struct RecommedationScreen: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        GeometryReader {geo in
+            ZStack {
+                Image("LookLab-LOGO-BLACK")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 200, height: 200, alignment: .bottom)
+                    
+            }
+        }
     }
 }
 
