@@ -17,6 +17,7 @@
 		A4001A952B0E8E1C00DE11C0 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4001A942B0E8E1C00DE11C0 /* HomeScreen.swift */; };
 		D42450AE2B12E962008797F6 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42450AD2B12E962008797F6 /* WelcomeScreen.swift */; };
 		D455F4A62B1437D800310CDA /* RecommendationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D455F4A52B1437D800310CDA /* RecommendationScreen.swift */; };
+		D4FF66432B192BA600BE223A /* ShoppingCartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FF66422B192BA600BE223A /* ShoppingCartScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		A4001A942B0E8E1C00DE11C0 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		D42450AD2B12E962008797F6 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		D455F4A52B1437D800310CDA /* RecommendationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationScreen.swift; sourceTree = "<group>"; };
+		D4FF66422B192BA600BE223A /* ShoppingCartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				A4001A942B0E8E1C00DE11C0 /* HomeScreen.swift */,
 				D42450AD2B12E962008797F6 /* WelcomeScreen.swift */,
 				D455F4A52B1437D800310CDA /* RecommendationScreen.swift */,
+				D4FF66422B192BA600BE223A /* ShoppingCartScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				A4001A6A2B0E8DF300DE11C0 /* LookLabApp.swift in Sources */,
 				D42450AE2B12E962008797F6 /* WelcomeScreen.swift in Sources */,
 				A4001A952B0E8E1C00DE11C0 /* HomeScreen.swift in Sources */,
+				D4FF66432B192BA600BE223A /* ShoppingCartScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

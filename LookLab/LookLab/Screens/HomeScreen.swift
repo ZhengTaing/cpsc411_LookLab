@@ -11,113 +11,115 @@ struct HomeScreen: View {
 private let categories = ["Tops","Dresses", "Jackets", "Pants", "Skirts", "Acessories", "Shoes"]
      
     var body: some View {
-        ZStack {
-            Color("bg")
-                .edgesIgnoringSafeArea(.all)
-            
-            ScrollView {
-                VStack (alignment: .leading){
-                    AppBarView()
-                    CategoriesIconView()
-                    
-                    
-                    Text("Trendy")
-                        .font(.custom("Avenir-Black", size: 10))
-                        .foregroundColor(.white)
-                        .frame(width: 150,height: 30,alignment: .center)
-                        .background(.black)
-                        .cornerRadius(50)
-                        .frame(width: 100,height: 50,alignment: .center)
-                    //       .overlay(Capsule().stroke(Color.black))
-                    
-                    //     .padding(.vertical,10)
-                        .padding(.horizontal,0)
-                    
-                    ScrollView (.horizontal, showsIndicators: false) {
-                        HStack {
-                            ForEach(0 ..< 6) { index in
-                                ProductCardView(image: Image("trendy_\(index + 1)"),
-                                                logo: Image("tlg_\(index + 1)"), size: 170)
-                                // ProductCardView(logo: Image("logo\(index + 1)"), size: 150)
-                                
-                                
+        NavigationStack {
+            ZStack {
+                Color("bg")
+                    .edgesIgnoringSafeArea(.all)
+                
+                ScrollView {
+                    VStack (alignment: .leading){
+                        AppBarView()
+                        CategoriesIconView()
+                        
+                        
+                        Text("Trendy")
+                            .font(.custom("Avenir-Black", size: 10))
+                            .foregroundColor(.white)
+                            .frame(width: 150,height: 30,alignment: .center)
+                            .background(.black)
+                            .cornerRadius(50)
+                            .frame(width: 100,height: 50,alignment: .center)
+                        //       .overlay(Capsule().stroke(Color.black))
+                        
+                        //     .padding(.vertical,10)
+                            .padding(.horizontal,0)
+                        
+                        ScrollView (.horizontal, showsIndicators: false) {
+                            HStack {
+                                ForEach(0 ..< 6) { index in
+                                    ProductCardView(image: Image("trendy_\(index + 1)"),
+                                                    logo: Image("tlg_\(index + 1)"), size: 170)
+                                    // ProductCardView(logo: Image("logo\(index + 1)"), size: 150)
+                                    
+                                    
+                                }
+                                .padding(.trailing)
                             }
-                            .padding(.trailing)
+                            .padding(.leading)
                         }
-                        .padding(.leading)
-                    }
-                    
-                    Text("Everyday")
-                        .font(.custom("Avenir-Black", size: 10))
-                        .foregroundColor(.white)
-                        .frame(width: 150,height: 30,alignment: .center)
-                        .background(.black)
-                        .cornerRadius(50)
-                        .frame(width: 100,height: 50,alignment: .center)
-                    //       .overlay(Capsule().stroke(Color.black))
-                    
-                    //     .padding(.vertical,10)
-                        .padding(.horizontal,0)
-                    
-                    ScrollView (.horizontal, showsIndicators: false) {
-                        HStack {
-                            ForEach(0 ..< 6) { index in
-                                ProductCardView(image: Image("ed_\(index + 1)"),
-                                                logo: Image("tlg_\(index + 1)"), size: 170)
-                                // ProductCardView(logo: Image("logo\(index + 1)"), size: 150)
-                                
-                                
+                        
+                        Text("Everyday")
+                            .font(.custom("Avenir-Black", size: 10))
+                            .foregroundColor(.white)
+                            .frame(width: 150,height: 30,alignment: .center)
+                            .background(.black)
+                            .cornerRadius(50)
+                            .frame(width: 100,height: 50,alignment: .center)
+                        //       .overlay(Capsule().stroke(Color.black))
+                        
+                        //     .padding(.vertical,10)
+                            .padding(.horizontal,0)
+                        
+                        ScrollView (.horizontal, showsIndicators: false) {
+                            HStack {
+                                ForEach(0 ..< 6) { index in
+                                    ProductCardView(image: Image("ed_\(index + 1)"),
+                                                    logo: Image("tlg_\(index + 1)"), size: 170)
+                                    // ProductCardView(logo: Image("logo\(index + 1)"), size: 150)
+                                    
+                                    
+                                }
+                                .padding(.trailing)
                             }
-                            .padding(.trailing)
+                            .padding(.leading)
                         }
-                        .padding(.leading)
-                    }
-                    Text("Sportswear")
-                        .font(.custom("Avenir-Black", size: 10))
-                        .foregroundColor(.white)
-                        .frame(width: 150,height: 30,alignment: .center)
-                        .background(.black)
-                        .cornerRadius(50)
-                        .frame(width: 100,height: 50,alignment: .center)
-                    //       .overlay(Capsule().stroke(Color.black))
-                    
-                    //     .padding(.vertical,10)
-                        .padding(.horizontal,0)
-                    
-                    ScrollView (.horizontal, showsIndicators: false) {
-                        HStack {
-                            ForEach(0 ..< 6) { index in
-                                ProductCardView(image: Image("sw_\(index + 1)"),
-                                                logo: Image("tlg_\(index + 1)"), size: 170)
-                                // ProductCardView(logo: Image("logo\(index + 1)"), size: 150)
-                                
-                                
+                        Text("Sportswear")
+                            .font(.custom("Avenir-Black", size: 10))
+                            .foregroundColor(.white)
+                            .frame(width: 150,height: 30,alignment: .center)
+                            .background(.black)
+                            .cornerRadius(50)
+                            .frame(width: 100,height: 50,alignment: .center)
+                        //       .overlay(Capsule().stroke(Color.black))
+                        
+                        //     .padding(.vertical,10)
+                            .padding(.horizontal,0)
+                        
+                        ScrollView (.horizontal, showsIndicators: false) {
+                            HStack {
+                                ForEach(0 ..< 6) { index in
+                                    ProductCardView(image: Image("sw_\(index + 1)"),
+                                                    logo: Image("tlg_\(index + 1)"), size: 170)
+                                    // ProductCardView(logo: Image("logo\(index + 1)"), size: 150)
+                                    
+                                    
+                                }
+                                .padding(.trailing)
                             }
-                            .padding(.trailing)
+                            .padding(.leading)
                         }
-                        .padding(.leading)
+                        
+                        
                     }
-                    
+                }
+                
+                HStack{
+                    BottomNavBarItem(image: Image("home")) {}
+                    BottomNavBarItem(image: Image("market")) {}
+                    BottomNavBarItem(image: Image("ar")) {}
+                    BottomNavBarItem(image: Image("search")) {}
+                    BottomNavBarItem(image: Image("profile")) {}
                     
                 }
-            }
-            
-            HStack{
-                BottomNavBarItem(image: Image("home")) {}
-                BottomNavBarItem(image: Image("market")) {}
-                BottomNavBarItem(image: Image("ar")) {}
-                BottomNavBarItem(image: Image("search")) {}
-                BottomNavBarItem(image: Image("profile")) {}
-                
+                .padding()
+                .background(Color.white)
+                .clipShape(Capsule())
+                .padding()
+                .shadow(color: Color.black.opacity(0.15), radius: 8, x: 2, y: 6)
+                .frame(maxHeight: .infinity, alignment: .bottom)
             }
             .padding()
-            .background(Color.white)
-            .clipShape(Capsule())
-            .padding()
-            .shadow(color: Color.black.opacity(0.15), radius: 8, x: 2, y: 6)
-            .frame(maxHeight: .infinity, alignment: .bottom)
         }
-        .padding()
     }
 }
 
@@ -145,12 +147,16 @@ struct AppBarView: View {
                 .frame(width: 30,height: 30,alignment: .center)
             
             
-            Button(action:{}){
+            NavigationLink {
+                ShoppingCartScreen()
+            } label: {
                 Image(uiImage: UIImage(imageLiteralResourceName: "shopping-cart"))
                     .resizable()
                 
                     .frame(width: 20,height: 20)
             }
+                
+            
         }
         .padding(.horizontal)
     }
