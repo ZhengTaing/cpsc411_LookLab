@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeScreen: View {
 private let categories = ["Tops","Dresses", "Jackets", "Pants", "Skirts", "Acessories", "Shoes"]
-     
+
     var body: some View {
         NavigationStack {
             ZStack {
