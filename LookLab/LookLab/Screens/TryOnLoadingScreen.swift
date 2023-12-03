@@ -1,14 +1,16 @@
 //
-//  ShoppingCartScreen.swift
+//  TryOnScreen.swift
 //  LookLab
 //
-//  Created by Roy Joacquin Masepequena on 11/30/23.
+//  Created by Derek Le on 11/30/23.
 //
 
+import Foundation
 import SwiftUI
 
-struct ShoppingCartScreen: View {
+struct tryOnLoadingView: View {
     var body: some View {
+        
         NavigationStack{
             ZStack{
                 VStack{
@@ -16,6 +18,7 @@ struct ShoppingCartScreen: View {
                         Image("arrow-left")
                             .resizable()
                             .scaledToFit()
+                            .colorInvert()
                             .frame(width: 25, height: 25)
                             .offset(x: -120)
                         
@@ -23,30 +26,41 @@ struct ShoppingCartScreen: View {
                         Image("LookLab-LOGO-BLACK")
                             .resizable()
                             .scaledToFit()
+//                            .colorInvert()
                             .frame(width: 30, height: 30)
                             .padding(.vertical, 3)
                             .offset(x: -18)
                         
-                        Text("Cart")
+                        Image("ar")
                             .offset(x: -25)
-                            .foregroundColor(.black)
+                            //.foregroundColor(.black)
+//                            .colorInvert()
                             .font(.system(size: 33, weight: .semibold))
                         
                     }
                     
+//                    HStack{
+//
+//                    }
+//
+//
+//                    Spacer()
+                    
                     HStack{
-                        
+                        Text("nothing found")
                     }
-                    
-                    
-                    Spacer()
+                    .padding()
+                    .foregroundColor(Color.black)
+                    .clipShape(Capsule())
+                    .padding()
+                    .shadow(color: Color.black.opacity(0.15), radius: 8, x: 2, y: 6)
+                    .frame(maxHeight: .infinity, alignment: .center)
                 }
                 
             }
+
         }
+        .padding(.horizontal)
+        
     }
 }
-
-//#Preview {
-//    ShoppingCartScreen()
-//}

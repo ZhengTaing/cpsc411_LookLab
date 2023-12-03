@@ -193,6 +193,6 @@ struct RecommendationScreen: View {
     }
 }
 
-#Preview {
-    RecommendationScreen()
-}
+//#Preview {
+//    RecommendationScreen()
+//}

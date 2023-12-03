@@ -78,6 +78,6 @@ struct WelcomeScreen: View {
     }
 }
 
-#Preview {
-    WelcomeScreen()
-}
+//#Preview {
+//    WelcomeScreen()
+//}

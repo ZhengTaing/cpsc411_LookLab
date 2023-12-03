@@ -36,14 +36,19 @@ private let categories = ["Tops","Dresses", "Jackets", "Pants", "Skirts", "Acess
                         
                         ScrollView (.horizontal, showsIndicators: false) {
                             HStack {
-                                ForEach(0 ..< 6) { index in
-                                    ProductCardView(image: Image("trendy_\(index + 1)"),
-                                                    logo: Image("tlg_\(index + 1)"), size: 170)
-                                    // ProductCardView(logo: Image("logo\(index + 1)"), size: 150)
-                                    
-                                    
+                                NavigationLink{
+                                    ProductTryOnView()
+                                } label: {
+                                    ForEach(0 ..< 6) { index in
+                                        ProductCardView(image: Image("trendy_\(index + 1)"),
+                                                        logo: Image("tlg_\(index + 1)"), size: 170)
+                                        // ProductCardView(logo: Image("logo\(index + 1)"), size: 150)
+                                        
+                                        
+                                    }
+                                    .padding(.trailing)
                                 }
-                                .padding(.trailing)
+                                
                             }
                             .padding(.leading)
                         }
@@ -104,11 +109,34 @@ private let categories = ["Tops","Dresses", "Jackets", "Pants", "Skirts", "Acess
                 }
                 
                 HStack{
-                    BottomNavBarItem(image: Image("home")) {}
-                    BottomNavBarItem(image: Image("market")) {}
-                    BottomNavBarItem(image: Image("ar")) {}
+//                    BottomNavBarItem(image: Image("home")) {}
+                    NavigationLink {
+                        HomeScreen()
+                    } label: {
+                        Image("home")
+                            .padding()
+                    }
+//                    BottomNavBarItem(image: Image("market")) {}
+                    NavigationLink {
+                        TryOnScreen()
+                    } label: {
+                        Image("market")
+                            .padding()
+                    }
+                    NavigationLink {
+                        tryOnLoadingView()
+                    } label: {
+                        Image("ar")
+                            .padding()
+                    }
                     BottomNavBarItem(image: Image("search")) {}
                     BottomNavBarItem(image: Image("profile")) {}
+//                    NavigationLink {
+//                        ProductTryOnView()
+//                    } label: {
+//                        Image("profile")
+//                            .padding()
+//                    }
                     
                 }
                 .padding()
