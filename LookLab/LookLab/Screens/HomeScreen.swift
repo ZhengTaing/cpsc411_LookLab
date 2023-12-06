@@ -36,9 +36,6 @@ private let categories = ["Tops","Dresses", "Jackets", "Pants", "Skirts", "Acess
                         
                         ScrollView (.horizontal, showsIndicators: false) {
                             HStack {
-                                NavigationLink{
-                                    ProductTryOnView()
-                                } label: {
                                     ForEach(0 ..< 6) { index in
                                         ProductCardView(image: Image("trendy_\(index + 1)"),
                                                         logo: Image("tlg_\(index + 1)"), size: 170)
@@ -49,7 +46,6 @@ private let categories = ["Tops","Dresses", "Jackets", "Pants", "Skirts", "Acess
                                     .padding(.trailing)
                                 }
                                 
-                            }
                             .padding(.leading)
                         }
                         
@@ -116,15 +112,15 @@ private let categories = ["Tops","Dresses", "Jackets", "Pants", "Skirts", "Acess
                         Image("home")
                             .padding()
                     }
-//                    BottomNavBarItem(image: Image("market")) {}
+                    BottomNavBarItem(image: Image("market")) {}
+//                    NavigationLink {
+//                        tryOnLoadingView()
+//                    } label: {
+//                        Image("market")
+//                            .padding()
+//                    }
                     NavigationLink {
                         TryOnScreen()
-                    } label: {
-                        Image("market")
-                            .padding()
-                    }
-                    NavigationLink {
-                        tryOnLoadingView()
                     } label: {
                         Image("ar")
                             .padding()

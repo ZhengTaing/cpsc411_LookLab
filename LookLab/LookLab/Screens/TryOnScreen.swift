@@ -82,45 +82,68 @@ private let categories = ["Tops","Dresses", "Jackets", "Pants", "Skirts", "Acess
                                 .padding(.horizontal,0)
                         }
                         
+//                        NavigationLink{
+//                            ProductTryOnView()
+//                        } label: {
+//                            ForEach(0 ..< 6) { index in
+//                                ProductCardView(image: Image("trendy_\(index + 1)"),
+//                                                logo: Image("tlg_\(index + 1)"), size: 170)
+//                                // ProductCardView(logo: Image("logo\(index + 1)"), size: 150)
+                        
                         
                         ScrollView (.vertical, showsIndicators: false) {
                             HStack {
-                                ForEach(0 ..< 6) { index in
-                                    ProductCardView(image: Image("trendy_\(index + 1)"),
-                                                    logo: Image("tlg_\(index + 1)"), size: 170)
-                                    // ProductCardView(logo: Image("logo\(index + 1)"), size: 150)
-                                    
-                                    
+                                NavigationLink{
+                                    ProductTryOnView()
+                                } label: {
+                                    ForEach(0 ..< 6) { index in
+                                        ProductCardView(image: Image("trendy_\(index + 1)"),
+                                                        logo: Image("tlg_\(index + 1)"), size: 170)
+                                        // ProductCardView(logo: Image("logo\(index + 1)"), size: 150)
+                                        
+                                        
+                                    }
+                                    .padding(.trailing)
                                 }
-                                .padding(.trailing)
+                                
                             }
                             .padding(.leading)
                         
                         
                         
                             HStack {
-                                ForEach(0 ..< 6) { index in
-                                    ProductCardView(image: Image("ed_\(index + 1)"),
-                                                    logo: Image("tlg_\(index + 1)"), size: 170)
-                                    // ProductCardView(logo: Image("logo\(index + 1)"), size: 150)
-                                    
-                                    
+                                NavigationLink{
+                                    ProductTryOnView()
+                                } label: {
+                                    ForEach(0 ..< 6) { index in
+                                        ProductCardView(image: Image("ed_\(index + 1)"),
+                                                        logo: Image("tlg_\(index + 1)"), size: 170)
+                                        // ProductCardView(logo: Image("logo\(index + 1)"), size: 150)
+                                        
+                                        
+                                    }
+                                    .padding(.trailing)
                                 }
-                                .padding(.trailing)
+                                
                             }
                             .padding(.leading)
                         
                         
                         
                             HStack {
-                                ForEach(0 ..< 6) { index in
-                                    ProductCardView(image: Image("sw_\(index + 1)"),
-                                                    logo: Image("tlg_\(index + 1)"), size: 170)
-                                    // ProductCardView(logo: Image("logo\(index + 1)"), size: 150)
-                                    
-                                    
+                                NavigationLink{
+                                    ProductTryOnView()
+                                } label: {
+                                    ForEach(0 ..< 6) { index in
+                                        ProductCardView(image: Image("sw_\(index + 1)"),
+                                                        logo: Image("tlg_\(index + 1)"), size: 170)
+                                        // ProductCardView(logo: Image("logo\(index + 1)"), size: 150)
+                                        
+                                        
+                                    }
+                                    .padding(.trailing)
                                 }
-                                .padding(.trailing)
+                                
                             }
                             .padding(.leading)
                         }
