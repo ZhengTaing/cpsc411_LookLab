@@ -145,9 +145,9 @@
 		A4001A932B0E8E0F00DE11C0 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				A4001A942B0E8E1C00DE11C0 /* HomeScreen.swift */,
 				D42450AD2B12E962008797F6 /* WelcomeScreen.swift */,
 				D455F4A52B1437D800310CDA /* RecommendationScreen.swift */,
+				A4001A942B0E8E1C00DE11C0 /* HomeScreen.swift */,
 				D4FF66422B192BA600BE223A /* ShoppingCartScreen.swift */,
 				723A8A7B2B19BF61007CD2A7 /* TryOnLoadingScreen.swift */,
 				723A8A7D2B1AAD01007CD2A7 /* TryOnScreen.swift */,
