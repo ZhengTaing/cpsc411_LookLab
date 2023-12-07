@@ -333,6 +333,8 @@ struct ShoppingCartScreen: View {
     }
 }
 
+/*
 #Preview {
     ShoppingCartScreen()
 }
+*/

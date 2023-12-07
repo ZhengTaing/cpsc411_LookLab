@@ -37,11 +37,46 @@ private let categories = ["Tops","Dresses", "Jackets", "Pants", "Skirts", "Acess
                         ScrollView (.horizontal, showsIndicators: false) {
                             HStack {
                                     ForEach(0 ..< 6) { index in
-                                        ProductCardView(image: Image("trendy_\(index + 1)"),
-                                                        logo: Image("tlg_\(index + 1)"), size: 170)
+                                      //  ProductCardView(image: Image("trendy_\(index + 1)"),
+                                        //                logo: Image("tlg_\(index + 1)"), size: 170)
                                         // ProductCardView(logo: Image("logo\(index + 1)"), size: 150)
                                         
-                                        
+                                        NavigationLink(
+                                            destination: ProductScreen(),
+                                            label: {
+                                            ProductCardView(image: Image("trendy_1"),
+                                                            logo: Image("tlg_1"), size: 170)
+                                        })
+                                        NavigationLink(
+                                            destination: ProductScreen2(),
+                                            label: {
+                                            ProductCardView(image: Image("trendy_2"),
+                                                            logo: Image("tlg_2"), size: 170)
+                                        })
+                                        NavigationLink(
+                                            destination: ProductScreen3(),
+                                            label: {
+                                            ProductCardView(image: Image("trendy_3"),
+                                                            logo: Image("tlg_3"), size: 170)
+                                        })
+                                        NavigationLink(
+                                            destination: ProductScreen4(),
+                                            label: {
+                                            ProductCardView(image: Image("trendy_4"),
+                                                            logo: Image("tlg_4"), size: 170)
+                                        })
+                                        NavigationLink(
+                                            destination: ProductScreen5(),
+                                            label: {
+                                            ProductCardView(image: Image("trendy_5"),
+                                                            logo: Image("tlg_5"), size: 170)
+                                        })
+                                        NavigationLink(
+                                            destination: ProductScreen6(),
+                                            label: {
+                                            ProductCardView(image: Image("trendy_6"),
+                                                            logo: Image("tlg_6"), size: 170)
+                                        })
                                     }
                                     .padding(.trailing)
                                 }

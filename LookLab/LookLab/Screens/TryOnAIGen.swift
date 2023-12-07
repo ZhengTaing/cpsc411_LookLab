@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 
-struct ProductTryOnView: View {
+struct TryOnAIGen: View {
     var body: some View {
         NavigationStack{
             ZStack{
@@ -46,7 +46,7 @@ struct ProductTryOnView: View {
                     
                     ScrollView{
                         HStack {
-                                Image("trendy_5")
+                                Image("jeremy_ai")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .cornerRadius(35)
@@ -64,7 +64,7 @@ struct ProductTryOnView: View {
                         
                         VStack(alignment: .leading){
                             
-                            Text("Amazon")
+                            Text("ZARA")
                                 .font(.title)
                                 .colorInvert()
                             

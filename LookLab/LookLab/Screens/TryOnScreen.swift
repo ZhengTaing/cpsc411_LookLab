@@ -94,13 +94,14 @@ private let categories = ["Tops","Dresses", "Jackets", "Pants", "Skirts", "Acess
                         ScrollView (.vertical, showsIndicators: false) {
                             HStack {
                                 NavigationLink{
-                                    ProductTryOnView()
+                                    TryOnAIGenProcess()
                                 } label: {
                                     ForEach(0 ..< 6) { index in
                                         ProductCardView(image: Image("trendy_\(index + 1)"),
                                                         logo: Image("tlg_\(index + 1)"), size: 170)
                                         // ProductCardView(logo: Image("logo\(index + 1)"), size: 150)
-                                        
+                                        ProductCardView(image: Image("tryon_1"),
+                                                        logo: Image("tlg_\(index + 1)"), size: 170)
                                         
                                     }
                                     .padding(.trailing)
@@ -113,7 +114,7 @@ private let categories = ["Tops","Dresses", "Jackets", "Pants", "Skirts", "Acess
                         
                             HStack {
                                 NavigationLink{
-                                    ProductTryOnView()
+                                    TryOnAIGen()
                                 } label: {
                                     ForEach(0 ..< 6) { index in
                                         ProductCardView(image: Image("ed_\(index + 1)"),
@@ -132,7 +133,7 @@ private let categories = ["Tops","Dresses", "Jackets", "Pants", "Skirts", "Acess
                         
                             HStack {
                                 NavigationLink{
-                                    ProductTryOnView()
+                                    TryOnAIGen()
                                 } label: {
                                     ForEach(0 ..< 6) { index in
                                         ProductCardView(image: Image("sw_\(index + 1)"),

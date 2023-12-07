@@ -1,13 +1,13 @@
 import SwiftUI
 
-struct ProductScreen2: View {
-    let productImages = ["trendy_2", "lol3", "lol4"]
+struct ProductScreen4: View {
+    let productImages = ["trendy_4", "lol9", "lol10"]
     let sizes = ["S", "M", "L", "XL"]
 
     @State private var selectedSize: String?
 
-    let price = 49.99 // Example price
-    let description = "Long dress with high collar and long sleeves. Open back detail. Featuring an elegant and contemporary design, perfect for evening events and special occasions."
+    let price = 64.99 // Example price
+    let description = "Shirred velvet creates a dramatic long sleeve dress that features a daring front slit detail. The Isla Velvet Front Slit Dress is a blend of elegance and contemporary style, perfect for evening gatherings and special events."
 
     var body: some View {
         ZStack {
@@ -33,7 +33,7 @@ struct ProductScreen2: View {
                     .padding(.horizontal)
 
                     // Product Title
-                    Text("OPEN BACK KNIT TINSEL DRESS")
+                    Text("Isla Velvet Front Slit Dress")
                         .font(.custom("Avenir-Black", size: 20))
                         .padding(.horizontal)
 
@@ -81,7 +81,7 @@ struct ProductScreen2: View {
                 }
             }
 
-            BottomNavBar2()
+            BottomNavBar4()
                 .frame(maxHeight: .infinity, alignment: .bottom)
         }
         .padding(.bottom)
@@ -92,7 +92,7 @@ struct ProductScreen2: View {
     }
 }
 
-struct BottomNavBar2: View {
+struct BottomNavBar4: View {
     var body: some View {
         HStack {
             BottomNavBarItem(image: Image("home")) {}
@@ -108,8 +108,8 @@ struct BottomNavBar2: View {
     }
 }
 
-struct ProductScreen2_Previews: PreviewProvider {
+struct ProductScreen4_Previews: PreviewProvider {
     static var previews: some View {
-        ProductScreen2()
+        ProductScreen4()
     }
 }

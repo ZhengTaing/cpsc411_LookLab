@@ -9,58 +9,57 @@ import Foundation
 import SwiftUI
 
 struct tryOnLoadingView: View {
+    @State private var isActive = false
+    @State private var size = 0.8
+    @State private var opacity = 0.5
+    
     var body: some View {
-        
-        NavigationStack{
-            ZStack{
-                VStack{
-                    HStack{
-                        Image("arrow-left")
-                            .resizable()
-                            .scaledToFit()
-                            .colorInvert()
-                            .frame(width: 25, height: 25)
-                            .offset(x: -120)
-                        
-                        
-                        Image("LookLab-LOGO-BLACK")
-                            .resizable()
-                            .scaledToFit()
-//                            .colorInvert()
-                            .frame(width: 30, height: 30)
-                            .padding(.vertical, 3)
-                            .offset(x: -18)
-                        
-                        Image("ar")
-                            .offset(x: -25)
-                            //.foregroundColor(.black)
-//                            .colorInvert()
-                            .font(.system(size: 33, weight: .semibold))
-                        
-                    }
+        if isActive {
+            TryOnAIGen()
+        }else{
+            VStack{
+                HStack{
+                    Image("arrow-left")
+                        .resizable()
+                        .scaledToFit()
+                        .colorInvert()
+                        .frame(width: 25, height: 25)
+                        .offset(x: -120)
                     
-//                    HStack{
-//
-//                    }
-//
-//
-//                    Spacer()
                     
-                    HStack{
-                        Text("nothing found")
-                    }
-                    .padding()
-                    .foregroundColor(Color.black)
-                    .clipShape(Capsule())
-                    .padding()
-                    .shadow(color: Color.black.opacity(0.15), radius: 8, x: 2, y: 6)
-                    .frame(maxHeight: .infinity, alignment: .center)
+                    Image("LookLab-LOGO-BLACK")
+                        .resizable()
+                        .scaledToFit()
+                    //                            .colorInvert()
+                        .frame(width: 30, height: 30)
+                        .padding(.vertical, 3)
+                        .offset(x: -18)
+                    
+                    Image("ar")
+                        .offset(x: -25)
+                    //.foregroundColor(.black)
+                    //                            .colorInvert()
+                        .font(.system(size: 33, weight: .semibold))
+                    
                 }
-                
-            }
+                .scaleEffect(size)
+                .opacity(opacity)
+                .onAppear{
+                    withAnimation(.easeIn(duration: 3)){
+                        self.size = 0.9
+                        self.opacity = 1.0
+                        
+                    }
+                }
+                .onAppear{
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2.0){
+                        self.isActive = true
+                    }
+                }
+        }
+        
 
         }
-        .padding(.horizontal)
         
     }
 }

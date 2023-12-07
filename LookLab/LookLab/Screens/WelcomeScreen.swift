@@ -26,6 +26,7 @@ struct WelcomeScreen: View {
                         .scaledToFit()
                         .frame(width:geo.size.width * 0.7, alignment: .center)
                         .offset(y:-75)
+                        .opacity(0.9)
                     
                     RoundedRectangle(cornerRadius: 25)
                         .fill(Color.white)
@@ -77,7 +78,8 @@ struct WelcomeScreen: View {
         }
     }
 }
-
+/*
 #Preview {
    WelcomeScreen()
 }
+*/
